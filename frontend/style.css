@@ -7,7 +7,6 @@
     --card-light: #fff6f0;
 }
 
-/* ======= GENERAL STYLES ======= */
 body {
     background-color: var(--coffee-light);
     font-family: "Tahoma", sans-serif;
@@ -17,16 +16,21 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background-color: var(--coffee-dark);
     color: white;
     text-align: center;
     padding: 25px 0;
-    box-shadow: 0 4px 6px rgba(139,86,86,0.1);
+}
+header img.logo {
+    width: 40%;   
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-/* Navbar */
+
+
 nav {
     background-color: var(--coffee-medium);
 }
@@ -54,7 +58,6 @@ nav ul li a:hover {
     color: var(--coffee-button);
 }
 
-/* Section Titles */
 .section-title {
     color: var(--coffee-dark);
     font-weight: bold;
@@ -69,7 +72,6 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
-/* ======= COFFEE TYPES ======= */
 .coffee-type .coffee-name {
     color: var(--coffee-dark);
     font-weight: bold;
@@ -81,7 +83,6 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
-/* ======= CARDS ======= */
 .coffee-cards {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +114,6 @@ nav ul li a:hover {
     color: #4b3621;
 }
 
-/* ======= FORMS ======= */
 form {
     background-color: var(--card-light);
     padding: 30px;
@@ -130,14 +130,13 @@ form h3 {
     text-align: center;
 }
 
-/* ----- H2 و الفقرات في الوسط ----- */
 .section-title {
     text-align: center;
 }
 
 .section-text {
     text-align: center;
-    margin: 0 auto 25px auto; /* يبقي الفقرة في المنتصف مع مسافة أسفل */
+    margin: 0 auto 25px auto; 
 }
 
 .coffee-name{
@@ -173,7 +172,6 @@ form input:focus, form textarea:focus {
     box-shadow: 0 0 5px rgba(100,53,2,0.5);
 }
 
-/* Buttons */
 button, .btn-custom {
     background-color: var(--coffee-button);
     color: white;
@@ -189,7 +187,6 @@ button:hover, .btn-custom:hover {
     background-color: var(--coffee-dark);
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 25px 20px;
@@ -199,7 +196,6 @@ footer {
     font-size: 14px;
 }
 
-/* ======= RESPONSIVE ======= */
 @media (max-width: 992px) {
     .coffee-cards {
         flex-direction: column;
